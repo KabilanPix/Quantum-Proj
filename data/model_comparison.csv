@@ -1,0 +1,5 @@
+Model Type,Training Dataset,Target,Accuracy,Precision,Recall,F1 Score,ROC-AUC,Data Nature
+Random Forest (Synthetic),Synthetic Physics Simulator,Machine Failure (>0.7 Risk),0.949,0.941,0.853,0.895,0.976,SIMULATED / SYNTHETIC
+Logistic Regression (Real),UCI AI4I 2020 Real Industrial,Machine failure (imbalanced 3.4%),0.868,0.1879,0.8676,0.3089,0.9463,REAL INDUSTRIAL (UCI)
+Random Forest (Real),UCI AI4I 2020 Real Industrial,Machine failure (imbalanced 3.4%),0.985,0.75,0.8382,0.7917,0.9765,REAL INDUSTRIAL (UCI)
+Gradient Boosting (Real),UCI AI4I 2020 Real Industrial,Machine failure (imbalanced 3.4%),0.9905,0.9016,0.8088,0.8527,0.9766,REAL INDUSTRIAL (UCI)

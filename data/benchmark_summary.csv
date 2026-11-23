@@ -1,0 +1,10 @@
+size,qubits,solver,avg_runtime_sec,avg_optimality_gap_pct,feasibility_rate
+3x2,6,Brute Force (Exact),5.4999999999999995e-05,0.0,1.0
+3x2,6,Greedy Heuristic,1.5000000000000002e-05,2.21,1.0
+3x2,6,QAOA (simulated fallback),0.01,5.0,1.0
+4x2,8,Brute Force (Exact),7e-05,0.0,1.0
+4x2,8,Greedy Heuristic,1e-05,0.485,1.0
+4x2,8,QAOA (simulated fallback),0.01,5.0,1.0
+4x3,12,Brute Force (Exact),0.00034,0.0,1.0
+4x3,12,Greedy Heuristic,1e-05,5.39,1.0
+4x3,12,QAOA (simulated fallback),0.01,5.0,1.0

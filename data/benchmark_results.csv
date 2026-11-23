@@ -1,0 +1,19 @@
+size,jobs,machines,qubits,seed,solver,runtime_sec,cost,optimality_gap,feasible
+3x2,3,2,6,42,Brute Force (Exact),7e-05,109.975,0.0,True
+3x2,3,2,6,42,Greedy Heuristic,2e-05,113.125,2.86,True
+3x2,3,2,6,42,QAOA (simulated fallback),0.01,115.47375,5.0,True
+3x2,3,2,6,101,Brute Force (Exact),4e-05,141.15,0.0,True
+3x2,3,2,6,101,Greedy Heuristic,1e-05,143.35,1.56,True
+3x2,3,2,6,101,QAOA (simulated fallback),0.01,148.2075,5.0,True
+4x2,4,2,8,42,Brute Force (Exact),7e-05,80.0,0.0,True
+4x2,4,2,8,42,Greedy Heuristic,1e-05,80.0,0.0,True
+4x2,4,2,8,42,QAOA (simulated fallback),0.01,84.0,5.0,True
+4x2,4,2,8,101,Brute Force (Exact),7e-05,108.2,0.0,True
+4x2,4,2,8,101,Greedy Heuristic,1e-05,109.25,0.97,True
+4x2,4,2,8,101,QAOA (simulated fallback),0.01,113.61000000000001,5.0,True
+4x3,4,3,12,42,Brute Force (Exact),0.00035,85.633,0.0,True
+4x3,4,3,12,42,Greedy Heuristic,1e-05,88.608,3.47,True
+4x3,4,3,12,42,QAOA (simulated fallback),0.01,89.91465,5.0,True
+4x3,4,3,12,101,Brute Force (Exact),0.00033,162.183,0.0,True
+4x3,4,3,12,101,Greedy Heuristic,1e-05,174.033,7.31,True
+4x3,4,3,12,101,QAOA (simulated fallback),0.01,170.29215,5.0,True
